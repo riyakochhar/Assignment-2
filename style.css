@@ -1,0 +1,37 @@
+h1{
+    text-align: center;
+   border: 10px solid palegoldenrod;
+    border-radius: 10px;
+    background-color: #006d77;
+    color:white;
+}
+
+div{
+    border:3px solid #a53860;
+    border-radius: 3px;
+    background-color: #c9e4ca;
+    font-size: 30px;
+    margin:15px;
+    font: bold 30px/40px Helvetica, Arial, sans-serif;
+}
+
+div{
+    position: sticky;
+    top:30px;
+}
+
+li::before{
+    content: "\1F4DE";
+}
+ul{
+    list-style-type: none;
+}
+footer{
+    text-align: center;
+}
+#last {
+    background-color: palegoldenrod;
+}
+main{
+    background-color:#eff7f6;
+}
